@@ -64,15 +64,30 @@ void menu()
 		{
 			cout << "Выберите одного из студентов. " << endl;
 			if (St1.name != o)
+			{
+				cout << "1." << endl;
 				St1.Person();
+			}
 			if (St2.name != o)
+			{
+				cout << "2." << endl;
 				St2.Person();
+			}
 			if (St3.name != o)
+			{
+				cout << "3." << endl;
 				St3.Person();
+			}
 			if (St4.name != o)
+			{
+				cout << "4." << endl;
 				St4.Person();
+			}
 			if (St5.name != o)
+			{
+				cout << "5." << endl;
 				St5.Person();
+			}
 			cin >> ns;
 			if (ns > 0 || ns < 6)
 			{
